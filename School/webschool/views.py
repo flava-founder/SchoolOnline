@@ -1,4 +1,4 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-def test(requsets):
+def index(requsets):
     return HttpResponse("Hello")
