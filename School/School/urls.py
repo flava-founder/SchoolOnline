@@ -18,5 +18,9 @@ from django.urls import path
 from webschool import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index)
+    path('', views.index),
+    path('about/', views.about),
+    path('courses/', views.courses),
+    path('feedbacks/', views.feedbacks)
+
 ]
